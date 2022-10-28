@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <math.h>
 
-#define RPN_OP_ERR NAN
+#define RPN_OP_ERR (0.0 / 0.0)
 
 typedef double operand;
 
